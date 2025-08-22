@@ -1,0 +1,50 @@
+* {
+    background-color: whitesmoke;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 20px;
+}
+
+.one {
+    background-color: steelblue;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.two {
+    background-color: coral;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.three {
+    background-color: lightgreen;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.one::after {
+    content: " $5";
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.two::after {
+    content: " $10";
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.three::after {
+    content: " $15";
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
